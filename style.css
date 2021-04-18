@@ -79,7 +79,7 @@ ul {
   margin-right: auto;
   width:60%;
   }
-  
+  /*Gallery*/
   /* Position the image container (needed to position the left and right arrows) */
   .container {
     position: relative;
@@ -162,6 +162,8 @@ ul {
   .demo:hover {
     opacity: 1;
   }
+
+  /* Slide Show */
   * {box-sizing: border-box}
 
 .mySlides {display: none}
@@ -259,7 +261,7 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
-
+/*Subscribe*/
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 
 ::selection{
@@ -353,6 +355,7 @@ img {vertical-align: middle;}
     color: rgb(97, 244, 255);
     text-align: center;
 }
+/*footer*/
 .footer {
     position: fixed;
     width: 100%;

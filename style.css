@@ -1,4 +1,4 @@
-/*NAV-BAR*/
+/*NAV-BAR SECTION*/
 html,
 body {
     background-color: #494949;
@@ -71,7 +71,7 @@ ul {
   margin-right: auto;
   width:60%;
   }
-  /*Gallery*/
+  /*HOME PAGE Gallery SECTION*/
   .container {
     position: relative;
   }
@@ -134,7 +134,7 @@ ul {
     opacity: 1;
   }
 
-  /* Slide Show */
+  /* GALLERY PAGE Slide Show SECTION*/
   * {box-sizing: border-box}
 
 .mySlides {display: none}
@@ -204,7 +204,7 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
-/*Subscribe*/
+/*Subscribe SECTION*/
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 
 ::selection{
@@ -298,7 +298,7 @@ img {vertical-align: middle;}
     color: rgb(97, 244, 255);
     text-align: center;
 }
-/*footer*/
+/*FOOTER SECTION*/
 .footer {
     position: fixed;
     width: 100%;
@@ -311,7 +311,7 @@ img {vertical-align: middle;}
     bottom: 0px;
     margin-bottom: 0px;
  }
-/*Sign in*/
+/*SIGN SECTION*/
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 h2, .signup {
   text-align: center;

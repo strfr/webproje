@@ -7,19 +7,26 @@
     </title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" type="image/x-icon" href="./logo.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./jquery_effects.js"></script>
 </head>
 
-<body><a href="./index.html"><img src="./logo.png" alt="logo" class="toplogo"></body></a>
-    <ul>
-        <li><a href="./index.html">Home</a></li>
-        <li><a href="./news.html">News</a></li>
-        <li><a href="./projects.html">Our Projects</a></li>
-        <li><a href="./gallery.html">Gallery</a></li>
-        <li><a href="./contact.html">Contact</a></li>
-        <li><a class="active" href="./sign.html">Sign in</a></li>
-      </ul>  
+<body><a href="./index.html"><img src="./logo.png" alt="logo" class="toplogo"></a>
+<ul>
+  <li><a id="home" style="display: none;"  href="./index.html">Home</a></li>
+  <li><a id="news" style="display: none;" href="./news.html">News</a></li>
+  <li><a id="projects" style="display: none;" href="./projects.html">Our Projects</a></li>
+  <li><a id="gallery" style="display: none;"  href="./gallery.html">Gallery</a></li>
+  <li><a id="contact" style="display: none;"  href="./contact.html">Contact</a></li>
+  <li><a id="sign" style="display: none;" class="active" href="./sign.html">Sign in</a></li>
+</ul>  
     </div>
-    <div class="wrapperSign fadeInDown">
+    <script>function foo() {
+      $("div").fadeOut(1000);
+document.getElementById("demo").innerHTML = "The Profile page will shown here";
+      return true;
+   }</script>
+    <div id="asd" class="wrapperSign fadeInDown">
   <div id="formContent">
     <!-- Tabs Titles -->
     <h2 class="activeSign"> Sign In </h2>
@@ -34,9 +41,9 @@
     <form>
       <input type="text" id="login" class="fadeIn second" name="login" placeholder="login">
       <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
-      <input type="submit" class="fadeIn fourth" value="Log In">
+      <input type="button" class="fadeIn fourth" value="Log In" onclick="foo();">
     </form>
-
+    
     <!-- Remind Passowrd -->
     <div id="formFooter">
       <a class="underlineHover" href="#">Forgot Password?</a>
@@ -44,10 +51,11 @@
 
   </div>
 </div>
-<div class="footer">
+<p style="size: 200px;" id="demo"></p>
+<section class="footer">
                 <p style="font-size: small;" >2021 Join Us Foundation <br> All Rights Reserved©</p>
                 <p></p>
-              </div>
+</section>
 </body>
 
 </html>

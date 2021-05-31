@@ -31,6 +31,5 @@
         $('#ex3').zoom({ on:'click' });
         $('#ex1').zoom({ on:'click' });
         
-        
     });
     

@@ -9,9 +9,12 @@
     <link rel="shortcut icon" type="image/x-icon" href="./logo.png">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./jquery_effects.js"></script>
+    
 </head>
 
-<body><a href="./index.html"><img src="./logo.png" alt="logo" class="toplogo"></a>
+<body>
+  
+  <a href="./index.html"><img src="./logo.png" alt="logo" class="toplogo"></a>
 <ul>
   <li><a id="home" style="display: none;" href="./index.html">Home</a></li>
   <li><a id="news" style="display: none;" href="./news.html">News</a></li>
@@ -21,11 +24,30 @@
   <li><a id="sign" style="display: none;" href="./sign.html">Sign in</a></li>
 </ul>  
     </div>
-    <h1 style="text-align: center;">CONTACT WILL COME HERE</h1>
+    <div>
+      <p style="margin-right: 125px; float: right;"><img width="800" src="./location.png" alt="location"></p>
+      
+    
+    <h1 style=" margin-left: 230px; color: aqua;">Due to the pandemic, we can only work by appointment. <br> Please make an appointment by filling out the form below.</h1>
+    
+  <form><div style=" margin-left: 400px; width: 500px;">  
+    <input type="email" required placeholder="E-mail Adress">
+    <input type="text" required placeholder="Phone Number">  
+	  <input  type="text" value=""  id="datetimepicker_mask"/>
+    <input style="margin-left: 110px;" type="submit" value="Submit"/></div>
+</form>
+	
+    <h1 style="margin-left: 15px; color: aqua; text-align: center;">Address: Anafartalar, Atatürk Blv No:1, 06050 Altındağ/Ankara</h1>
+</div>
     <div class="footer">
         <p style="font-size: small;" >2021 Join Us Foundation <br> All Rights Reserved©</p>
         <p></p>
       </div>
 </body>
-
+<script src="./jquery.js"></script>
+<script src="./jquery.datetimepicker.js"></script>
+<script>
+$('#datetimepicker_mask').datetimepicker({
+	mask:'9999/19/39 29:59',
+});</script>
 </html>

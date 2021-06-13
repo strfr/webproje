@@ -794,7 +794,6 @@ input[type=text]:placeholder {
     float: left;
 	background-position:-20px 0px;
 }
-
 .datetimepicker  .next{
     float: right;
 	background-position:0px 0px;
@@ -961,4 +960,16 @@ input[type=text]:placeholder {
 	top:0px;
 	bottom:0px;
 	cursor:pointer;
+}
+#addresses{
+	color:aqua;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 35px;
+}
+
+#newsHeader{
+	color: rgb(110, 200, 236);
+}
+#newsTitle{
+	color: rgb(196, 240, 234);
 }

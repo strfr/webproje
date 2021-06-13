@@ -26,10 +26,9 @@
         $("#contact").fadeIn(1800);
         $("#sign").fadeIn(2000);
 
-        $('#ex4').zoom({ on:'click' });
         $('#ex2').zoom({ on:'click' });
         $('#ex3').zoom({ on:'click' });
-        $('#ex1').zoom({ on:'click' });
+        $('#ex4').zoom({ on:'click' });
         
     });
     

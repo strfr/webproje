@@ -798,8 +798,6 @@ input[type=text]:placeholder {
     float: right;
 	background-position:0px 0px;
 }
-.datetimepicker  .next:active,.datetimepicker  .prev:active{
-}
 .datetimepicker  .next,.datetimepicker  .prev {
 	background-color: transparent;
 	background-repeat: no-repeat;
@@ -941,8 +939,6 @@ input[type=text]:placeholder {
 .datetimepicker  .copyright{ color:#ccc !important; font-size:10px;clear:both;float:none;margin-left:8px;}
 .datetimepicker  .copyright a{ color:#eee !important;}
 .datetimepicker  .copyright a:hover{ color:#aaa !important;}
-
-
 .time_box{
 	position:relative;
 	border:1px solid #ccc;
@@ -966,7 +962,6 @@ input[type=text]:placeholder {
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	font-size: 35px;
 }
-
 #newsHeader{
 	color: rgb(110, 200, 236);
 }
